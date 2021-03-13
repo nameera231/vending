@@ -2,7 +2,7 @@ public class Stockpile {
 	
 	private int numSodas;
 	
-    /* TODO: declare two other instance fields.
+    /* 
      * One field stores price and the other
      * stores ID of soda.
      */
@@ -10,7 +10,7 @@ public class Stockpile {
 	private int sodaID;
 
 	/**
-	 * TODO: define a three-parameter constructor that initializes fields
+	 * 
 	 * @param numSodas number of sodas
 	 * @param sodaPrice price of soda
 	 * @param sodaID ID of soda
@@ -31,7 +31,7 @@ public class Stockpile {
 	}
 
 	/** 
-	 *  TODO: complete a method that indicates whether stockpile runs out of soda
+	 *  a method that indicates whether stockpile runs out of soda
 	 *  @return true if stockpile runs out of soda
 	 */
 	public boolean isSoldOut() {
@@ -46,7 +46,7 @@ public class Stockpile {
 	}
 	
 	/**
-	 * TODO: complete a method that provides the price of soda
+	 * a method that provides the price of soda
 	 * @return the price of soda
 	 */
 	public int getPrice() {
@@ -55,7 +55,7 @@ public class Stockpile {
 	}
 	
 	/**
-	 * TODO: complete a method that provides the ID of soda
+	 *  a method that provides the ID of soda
 	 * @return the ID of soda
 	 */
 	public int getID() {
