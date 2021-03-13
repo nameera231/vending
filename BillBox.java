@@ -10,7 +10,7 @@ public class BillBox {
 	private int totalDepositedBills;
 	
     /*
-     * TODO: complete the zero-parameter constructor 
+     * The zero-parameter constructor 
      * for initializing fields.
      */
 	public BillBox( ) {
@@ -19,7 +19,7 @@ public class BillBox {
 	}
 	
 	/*
-	 *  TODO: complete a method that updates 
+	 *   a method that updates 
 	 *  the amount of deposited bills
 	 */
     public void insertBill() {
@@ -28,7 +28,7 @@ public class BillBox {
     }
 		
 	/** 
-	 *  TODO: complete a method that returns
+	 *  a method that returns
 	 *  the amount of deposited bills.
 	 *  @return current deposited bills
 	 */
