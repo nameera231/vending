@@ -1,7 +1,7 @@
 public class BeverageReceiver {
 	
 	/** 
-	 *  TODO: complete a method that sends a message
+	 *  a method that sends a message
 	 *  about picking up soda from beverage receiver
 	 *  @return message for picking up soda
 	 */
