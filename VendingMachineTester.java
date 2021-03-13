@@ -27,13 +27,13 @@ public class VendingMachineTester {
         int numBrands = sc.nextInt();
         
         /*
-         * TODO: instantiate Stockpiles and a BillBox
+         * Stockpiles and a BillBox
          */	
         Stockpile[] stocksAvailable = new Stockpile[numBrands];
         BillBox bills = new BillBox();
 		
 	    /*
-	     * TODO: Complete initializing Stockpiles.
+	     * initializing Stockpiles.
 	     */
 		for(int i = 0; i < numBrands; i++) {
 	      System.out.print("Enter the number of sodas: ");
@@ -48,7 +48,7 @@ public class VendingMachineTester {
 		}
 
 		/*
-		 * TODO: Instantiate a VendingMachine
+		 * a VendingMachine
 		 */
 		Display d = new Display( );
 		BeverageReceiver br = new BeverageReceiver() ;
