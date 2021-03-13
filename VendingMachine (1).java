@@ -2,7 +2,7 @@ public class VendingMachine {
 
    Stockpile[] stocks;
    /*	
-   * TODO: declare two other instance fields.
+   *
    * This vending machine has also a BillBox
    * and a Display.
    */
@@ -12,8 +12,7 @@ public class VendingMachine {
   
   
   /**
-   * TODO: define a three-parameter constructor 
-   * that initializes fields.
+   * 
    * @param stocks
    * @param bb
    * @param ds
@@ -26,7 +25,7 @@ public class VendingMachine {
   
 
   /**
-   * TODO: complete a method that returns 
+   * a method that returns 
    * an array of Stockpile
    * @return a Stockpile array
    */  
@@ -35,7 +34,7 @@ public class VendingMachine {
   }
 
   /**
-   * TODO: complete a method that returns 
+   * a method that returns 
    * a BillBox
    * @return a BillBox
    */  
@@ -44,7 +43,7 @@ public class VendingMachine {
   }
   
   /**
-   * TODO: complete a method that shows the current 
+   *  a method that shows the current 
    * deposited money.
    * @return the deposited money    
    */
@@ -53,7 +52,7 @@ public class VendingMachine {
   }
 
   /**
-   * TODO: complete a method that returns a Display.
+   * a method that returns a Display.
    * @return a Display    
    */	
   public Display getDisplay( ) {
